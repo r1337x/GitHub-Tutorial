@@ -146,15 +146,8 @@ For this example, we assume you created a repo and added and README etc. Once th
 
 If you tried pushing to this repo by following the steps above, you should see the following error:
 
->hint: Updates were rejected because the remote contains   work that you do.
-
->hint: not have locally. This is usually caused by another repository pushing
-
->hint: to the same ref. You may want to first integrate the remote changes
-
->hint: (e.g., 'git pull ...') before pushing again.
-
->hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+>error: src refspec master does not match any.  
+error: failed to push some refs to 'ssh://xxxxx.com/project.git'
 
 # The solution:
 
